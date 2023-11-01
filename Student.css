@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: cursive;
+}
+body{
+    background-image: linear-gradient(
+        to right,
+    rgb(240, 63, 92),
+    rgb(150, 232, 112)
+);
+}
+.student-container{
+    height: 450px;
+    width: 600px;
+    /* background-color: whitesmoke; */
+    border: 2px double blue;
+    margin: 25px 28%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px dashed black;
+}
+.btn input{
+    width: 40%;
+    margin: 25px;
+    border-radius: 30px;
+    background-color: blue;
+    color: lavender;
+    border: none;
+    height: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn input:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 10px black;
+}
+h2{
+    margin-bottom: 20px;
+}
+.student-data{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: transparent;
+    height: 500px;
+}
